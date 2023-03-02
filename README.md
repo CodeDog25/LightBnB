@@ -22,10 +22,12 @@ Lighthouse BnB is an app that will revolutionize the travel industry. It will al
   * npm run local
 
 ## Project Structure
+```
+LightBnB_WebApp
 ├── public
 │   ├── index.html
 │   ├── javascript
-│   │   ├── components
+│   │   ├── components 
 │   │   │   ├── header.js
 │   │   │   ├── login_form.js
 │   │   │   ├── new_property_form.js
@@ -40,11 +42,13 @@ Lighthouse BnB is an app that will revolutionize the travel industry. It will al
 │   └── styles
 ├── sass
 └── server
+  ├── db
+      ├── index.js
   ├── apiRoutes.js
   ├── database.js
-  ├── json
   ├── server.js
   └── userRoutes.js
+```
 * public contains all of the HTML, CSS, and client side JavaScript.
   * index.html is the entry point to the application. It's the only html page because this is a single page application.
   * javascript contains all of the client side javascript files.
