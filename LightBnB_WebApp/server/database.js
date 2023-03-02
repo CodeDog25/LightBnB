@@ -147,7 +147,6 @@ if (options.minimum_rating) {
 }
  queryParams.push(limit);
  queryString += `
- GROUP BY properties.id
  ORDER BY cost_per_night
  LIMIT $${queryParams.length};
  `;
